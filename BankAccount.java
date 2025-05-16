@@ -15,4 +15,10 @@ public class BankAccount {
         return accountNumber;
     }
 
+    public boolean validatePin(String enteredPin) {
+        return this.pin.equals(enteredPin);
+    }
+
+ 
+
 }
