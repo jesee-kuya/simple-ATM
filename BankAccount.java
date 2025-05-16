@@ -19,6 +19,11 @@ public class BankAccount {
         return this.pin.equals(enteredPin);
     }
 
+    public double getBalance() {
+        return balance;
+    }
+
+ 
  
 
 }
