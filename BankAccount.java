@@ -8,4 +8,11 @@ public class BankAccount {
         this.pin = pin;
         this.balance = balance;
     }
+
+
+    // Getters
+    public String getAccountNumber() {
+        return accountNumber;
+    }
+
 }
