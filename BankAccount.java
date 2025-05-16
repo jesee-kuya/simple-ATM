@@ -2,5 +2,10 @@ public class BankAccount {
     private String accountNumber;
     private String pin;
     private double balance;
-  
+
+    public BankAccount(String accountNumber, String pin, double balance) {
+        this.accountNumber = accountNumber;
+        this.pin = pin;
+        this.balance = balance;
+    }
 }
